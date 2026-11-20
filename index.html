@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Un duelo privado de cultura general para Luke y Valentina." />
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#2c121c" />
+  <meta name="apple-mobile-web-app-title" content="Duelo" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <title>Nuestro pequeño duelo</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500..700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="atmosphere" aria-hidden="true">
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
+    <div class="glow glow-c"></div>
+    <div class="sparkles">
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="float-hearts">
+      <span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span>
+    </div>
+  </div>
+
+  <p id="live" class="visually-hidden" aria-live="polite"></p>
+
+  <noscript>
+    <div class="shell">
+      <p class="noscript">Para jugar este duelo hace falta tener JavaScript activado.</p>
+    </div>
+  </noscript>
+
+  <div id="app"></div>
+  <div id="modal" hidden data-action="close-modal"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
